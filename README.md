@@ -24,15 +24,15 @@ All testing was performed strictly within scope, under the internship's written 
 
 > Screenshots below are redacted to remove visible PII before publishing.
 
-1. WHOIS — `whois-redacted.png`
-2. Subfinder — `subfinder.png`
-3. WhatWeb — `whatweb.png`
-4. Nmap / Zenmap — `nmap_1.png`
-5. Gobuster — `gobuster.png`, `gobuster_1.png`
-6. `/old/` directory discovered — `dir_old_found.png`
-7. Database backup (redacted) — `alldata-redacted.png`
-8. SQL Injection — patient portal — `sql_injection_patient_portal.png`
-9. Patient portal access — `pdf_access.png`
+1. WHOIS — ![](evidences/whois.png)
+2. Subfinder — ![](evidences/subfinder.png)
+3. WhatWeb — ![](evidences/whatweb.png)
+4. Nmap / Zenmap — ![](evidences/nmap_1.png)
+5. Gobuster — ![](evidences/gobuster.png) ![](evidences/gobuster_1.png)
+6. `/old/` directory discovered — ![](evidences/dir_old_found.png)
+7. Database backup (redacted) — ![](evidences/alldata-redacted.png)
+8. SQL Injection — patient portal — ![](evidences/sql_injection_patient_portal.png)
+9. Patient portal access — ![](evidences/pdf_access.png)
 
 ## 4. Key Findings
 
@@ -42,7 +42,7 @@ All testing was performed strictly within scope, under the internship's written 
 | F2 | Exposed Legacy DB Backup (`/old/`) | **Critical** |
 | F3 | Weakly-Protected Patient Pathology Reports | **Critical** |
 | F4 | Information Disclosure / Enumeration Surface | Informational |
-| F5 | Exposed Mail and FTP Services | Informational |
+
 
 **Privacy impact:** The exposed backup disclosed confidential staff personnel records and the hospital's corporate ownership information. All retrieved patient PDFs were protected by weak, crackable passwords, exposing confidential pathology results.
 
