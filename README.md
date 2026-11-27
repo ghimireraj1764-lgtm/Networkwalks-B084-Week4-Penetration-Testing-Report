@@ -30,9 +30,8 @@ All testing was performed strictly within scope, under the internship's written 
 4. Nmap / Zenmap — ![](evidences/nmap_1.png)
 5. Gobuster — ![](evidences/gobuster.png) ![](evidences/gobuster_1.png)
 6. `/old/` directory discovered — ![](evidences/dir_old_found.png)
-7. Database backup (redacted) — ![](evidences/alldata-redacted.png)
-8. SQL Injection — patient portal — ![](evidences/sql_injection_patient_portal.png)
-9. Patient portal access — ![](evidences/pdf_access.png)
+7. SQL Injection — patient portal — ![](evidences/sql_injection_patient_portal.png)
+8. Patient portal access — ![](evidences/pdf_access.png)
 
 ## 4. Key Findings
 
